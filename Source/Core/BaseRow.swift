@@ -29,6 +29,9 @@ public class BaseRow : BaseRowType {
     /// String that uniquely identifies a row. Must be unique among rows and sections.
     public var tag: String?
     
+    /// UIImage that can be placed in the left image view space
+    public var leftImage: UIImage?
+    
     /// The untyped cell associated to this row.
     public var baseCell: BaseCell! { return nil }
     
